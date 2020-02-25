@@ -9,7 +9,6 @@ function fibonacci(x) {
     return fibonacci(x - 1) + fibonacci(x - 2);
   }
 }
-
 for (let n = 0; n < 30; n++) {
   console.log(fibonacci(n));
 }
